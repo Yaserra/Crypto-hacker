@@ -122,6 +122,13 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+pip install ecashaddress>=0.5.0
+pip install rich>=13.0.0
+pip install psutil>=5.9.0
+pip install numpy>=1.24.0
+pip install base58>=2.1.1
+pip install pycryptodome>=3.19.0
+pip install coincurve>=18.0.0
 ```
 
 4. Install Optional Dependencies (For Bitcoin Cash)
