@@ -1,136 +1,146 @@
-# Crypto-hacker
-## 🎯 معرفی پروژه
+#crypto scanner 
+🎯 Project Overview
 
-**Enterprise Cryptocurrency Scanner** یک اسکنر حرفه‌ای و فوق‌العاده قدرتمند برای ارزهای دیجیتال است که با قابلیت تولید و جستجوی میلیون‌ها آدرس در ثانیه طراحی شده است. این ابزار با پشتیبانی از تمامی فرمت‌های مدرن آدرس‌های ارزهای دیجیتال تا سال 2025، از جمله Taproot بیت‌کوین و MWEB لایت‌کوین، یک راه‌حل جامع و سازمانی برای علاقه‌مندان به ارزهای دیجیتال، محققان امنیتی و توسعه‌دهندگان بلاکچین محسوب می‌شود.
+Enterprise Cryptocurrency Scanner is a professional, ultra-high-performance cryptocurrency scanner designed to generate and search millions of addresses per second. With comprehensive support for all modern cryptocurrency address formats up to 2025, including Bitcoin Taproot and Litecoin MWEB, this tool provides an enterprise-grade solution for cryptocurrency enthusiasts, security researchers, and blockchain developers.
 
-### 🌟 کاربردهای اصلی
-- تولید و بررسی تصادفی آدرس‌های ارز دیجیتال
-- تست امنیت کیف پول‌ها
-- آموزش مفاهیم رمزنگاری و آدرس‌دهی بلاکچین
-- تحقیقات آکادمیک در زمینه رمزنگاری ارزهای دیجیتال
+🌟 Primary Use Cases
 
-## ✨ ویژگی‌های کلیدی
+· Random cryptocurrency address generation and validation
+· Wallet security testing and auditing
+· Cryptographic concepts and blockchain addressing education
+· Academic research in cryptocurrency cryptography
 
-### 🛡️ **پشتیبانی کامل از رمزنگاری پیشرفته**
-- پیاده‌سازی کامل منحنی secp256k1
-- پشتیبانی از امضای Schnorr برای Taproot (BIP 340)
-- توابع هش双重 SHA256 و RIPEMD160 با بهینه‌سازی سخت‌افزاری
-- تولید اعداد تصادفی امن با ماژول secrets
+✨ Key Features
 
-### 🚀 **عملکرد فوق‌العاده**
-- موتور Bloom Filter با ظرفیت ۱۵ میلیون آدرس
-- پشتیبانی از پردازش چندنخی با بهینه‌سازی CPU
-- حداکثر ۱۶ رشته همزمان برای حداکثر کارایی
-- بافرینگ هوشمند و پردازش دسته‌ای
+🛡️ Complete Advanced Cryptography Support
 
-### 📱 **رابط کاربری حرفه‌ای**
-- نمایش زنده آمار با Rich Console
-- پنل‌های اطلاعاتی رنگی و پویا
-- نمایش لحظه‌ای سرعت، حافظه و CPU
-- گزارش‌گیری خودکار از یافته‌ها
+· Full secp256k1 elliptic curve implementation
+· Schnorr signature support for Taproot (BIP 340)
+· Hardware-optimized double SHA256 and RIPEMD160 hash functions
+· Cryptographically secure random number generation using Python's secrets module
 
-### 🔒 **پشتیبانی از تمامی فرمت‌های آدرس ۲۰۲۵**
+🚀 Ultra-High Performance
 
-#### بیت‌کوین (BTC)
-- Legacy P2PKH (آدرس‌های با 1...)
-- P2SH (آدرس‌های با 3...)
-- SegWit Native (آدرس‌های bc1q...)
-- **Taproot P2TR** (آدرس‌های bc1p...)
+· Bloom Filter engine with 15M+ address capacity
+· Multi-threading support with CPU optimization
+· Up to 16 concurrent threads for maximum efficiency
+· Intelligent buffering and batch processing
 
-#### بیت‌کوین کش (BCH)
-- Legacy P2PKH (فرمت قدیمی 1...)
-- **CashAddr P2PKH** (فرمت bitcoincash:...)
-- **CashAddr P2SH** (فرمت bitcoincash:...)
+📱 Professional User Interface
 
-#### بیت‌کوین گلد (BTG)
-- P2PKH Compressed (آدرس‌های G...)
-- P2PKH Uncompressed (آدرس‌های G...)
-- P2SH (آدرس‌های A...)
-- SegWit Native (آدرس‌های btg1...)
+· Real-time statistics display with Rich Console
+· Dynamic color-coded information panels
+· Live speed, memory, and CPU monitoring
+· Automatic match logging and reporting
 
-#### لایت‌کوین (LTC)
-- Legacy P2PKH (آدرس‌های L...)
-- P2SH Legacy (آدرس‌های 3...)
-- P2SH New (آدرس‌های M...)
-- SegWit Native (آدرس‌های ltc1...)
-- **MWEB** (پشتیبانی مفهومی)
+🔒 Complete 2025 Address Format Support
 
-#### دوج‌کوین (DOGE)
-- P2PKH Compressed (آدرس‌های D...)
-- P2PKH Uncompressed (آدرس‌های D...)
-- P2SH (آدرس‌های 9... و A...)
+Bitcoin (BTC)
 
-## 📦 نیازمندی‌ها
+· Legacy P2PKH (1... addresses)
+· P2SH (3... addresses)
+· Native SegWit (bc1q... addresses)
+· Taproot P2TR (bc1p... addresses)
 
-### پیش‌نیازهای سیستم
-- **Python**: نسخه 3.8 یا بالاتر
-- **RAM**: حداقل ۴ گیگابایت (توصیه: ۸ گیگابایت)
-- **CPU**: پشتیبانی از چند هسته‌ای
-- **سیستم‌عامل**: Windows, Linux, macOS
+Bitcoin Cash (BCH)
 
-### کتابخانه‌های مورد نیاز
+· Legacy P2PKH (1... format)
+· CashAddr P2PKH (bitcoincash:... format)
+· CashAddr P2SH (bitcoincash:... format)
+
+Bitcoin Gold (BTG)
+
+· P2PKH Compressed (G... addresses)
+· P2PKH Uncompressed (G... addresses)
+· P2SH (A... addresses)
+· Native SegWit (btg1... addresses)
+
+Litecoin (LTC)
+
+· Legacy P2PKH (L... addresses)
+· Legacy P2SH (3... addresses)
+· New P2SH (M... addresses)
+· Native SegWit (ltc1... addresses)
+· MWEB (Conceptual support)
+
+Dogecoin (DOGE)
+
+· P2PKH Compressed (D... addresses)
+· P2PKH Uncompressed (D... addresses)
+· P2SH (9... and A... addresses)
+
+📦 Requirements
+
+System Prerequisites
+
+· Python: Version 3.8 or higher
+· RAM: Minimum 4GB (8GB recommended)
+· CPU: Multi-core support
+· Operating System: Windows, Linux, macOS
+
+Required Libraries
 
 ```bash
-# کتابخانه‌های اصلی رمزنگاری
-coincurve>=18.0.0        # عملیات رمزنگاری secp256k1 با کارایی بالا
-pycryptodome>=3.19.0     # الگوریتم‌های رمزنگاری (RIPEMD160)
-base58>=2.1.1            # encoding/decoding Base58
+# Core cryptography libraries
+coincurve>=18.0.0        # High-performance secp256k1 cryptographic operations
+pycryptodome>=3.19.0     # Cryptographic algorithms (RIPEMD160)
+base58>=2.1.1            # Base58 encoding/decoding
 
-# کتابخانه‌های عددی و سیستمی
-numpy>=1.24.0            # محاسبات عددی و بهینه‌سازی حافظه
-psutil>=5.9.0            # مانیتورینگ سیستم
+# Numerical and system libraries
+numpy>=1.24.0            # Numerical computing and memory optimization
+psutil>=5.9.0            # System monitoring
 
-# کتابخانه‌های رابط کاربری
-rich>=13.0.0             # رابط کاربری حرفه‌ای ترمینال
+# UI libraries
+rich>=13.0.0             # Professional terminal interface
 
-# کتابخانه‌های اختیاری (برای بیت‌کوین کش)
-ecashaddress>=0.5.0      # پشتیبانی از CashAddr بیت‌کوین کش
+# Optional libraries (for Bitcoin Cash)
+ecashaddress>=0.5.0      # CashAddr support for Bitcoin Cash
 ```
 
-🚀 نصب و راه‌اندازی
+🚀 Installation Guide
 
-۱. کلون کردن مخزن
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/crypto-scanner.git
 cd crypto-scanner
 ```
 
-۲. ایجاد محیط مجازی (توصیه شده)
+2. Create Virtual Environment (Recommended)
 
 ```bash
-# ویندوز
+# Windows
 python -m venv venv
 venv\Scripts\activate
 
-# لینوکس / مک
+# Linux / macOS
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-۳. نصب وابستگی‌ها
+3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-۴. نصب وابستگی‌های اختیاری (برای بیت‌کوین کش)
+4. Install Optional Dependencies (For Bitcoin Cash)
 
 ```bash
 pip install ecashaddress
 ```
 
-۵. اجرای برنامه
+5. Run the Application
 
 ```bash
 python crypto_scanner_plus.py
 ```
 
-💻 نحوه استفاده
+💻 Usage Guide
 
-۱. آماده‌سازی فایل آدرس‌ها
+1. Prepare Address File
 
-یک فایل address.txt در پوشه پروژه ایجاد کنید و آدرس‌های مورد نظر را در هر خط وارد کنید:
+Create an address.txt file in the project directory and add target addresses (one per line):
 
 ```
 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
@@ -139,50 +149,49 @@ bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq
 bc1p5d7rjq7g6rdk2yhzks9smlaqtedr4dekq08ge8ztwac72sfr9rusxg3297
 ```
 
-۲. اجرا و کنترل برنامه
+2. Control Commands
 
-دستورات کنترلی
+Command Action
+y Start scanning
+n Stop scanning
+q Quit application
+l filename.txt Load new address file
+h Show help menu
 
-· y - شروع اسکن
-· n - توقف اسکن
-· q - خروج از برنامه
-· l filename.txt - بارگذاری فایل آدرس جدید
-· h - نمایش راهنما
+3. Program Outputs
 
-خروجی‌های برنامه
+· Live Display: Real-time statistics including speed, generated keys, and matches
+· found.txt: Automatic saving of discovered addresses with complete information
+· Log File: All events recorded in crypto_scanner.log
 
-· نمایش زنده: آمار لحظه‌ای شامل سرعت، تعداد کلیدهای تولید شده، تطابق‌ها
-· فایل found.txt: ذخیره‌سازی خودکار آدرس‌های پیدا شده با اطلاعات کامل
-· فایل log: ثبت تمام رویدادها در crypto_scanner.log
+🏗 Architecture & Performance
 
-🏗 معماری و عملکرد
-
-۱. موتور رمزنگاری پیشرفته
+1. Advanced Cryptographic Engine
 
 ```python
-# تولید کلید خصوصی امن
+# Generate secure private key
 private_key = crypto_engine.generate_private_key()
 
-# تبدیل به کلید عمومی
+# Convert to public key
 pubkey = crypto_engine.private_key_to_public_key(private_key)
 
-# ایجاد آدرس Taproot با tweak
+# Create Taproot address with tweak
 tweaked_pubkey, taproot_output = crypto_engine.create_taproot_tweaked_pubkey(private_key)
 ```
 
-۲. Bloom Filter بهینه شده
+2. Optimized Bloom Filter
 
-· ظرفیت: پشتیبانی از ۱۵ میلیون آدرس
-· نرخ خطا: ۰.۱٪ قابل تنظیم
-· حافظه: حدود ۲ مگابایت به ازای هر میلیون آدرس
+· Capacity: Supports up to 15 million addresses
+· Error Rate: 0.1% configurable false positive rate
+· Memory: Approximately 2MB per million addresses
 
-۳. پردازش چندنخی
+3. Multi-threading Architecture
 
-· توزیع هوشمند کار بین هسته‌های CPU
-· همگام‌سازی دقیق آمار بین رشته‌ها
-· خاموشی ایمن و مدیریت خطا
+· Intelligent workload distribution across CPU cores
+· Precise statistics synchronization between threads
+· Graceful shutdown and comprehensive error handling
 
-📊 خروجی نمونه
+📊 Sample Output
 
 ```
 🚀 Enterprise Cryptocurrency Scanner v4.0 - 2025 Edition 🚀
@@ -215,34 +224,39 @@ Private Key (HEX): f3a4b7c1d2e5...
 BTC_P2WPKH_NATIVE: bc1q...
 ```
 
-🤝 راهنمای مشارکت
+🤝 Contributing Guide
 
-از مشارکت شما در بهبود این پروژه استقبال می‌شود!
+We welcome contributions to improve this project!
 
-مراحل مشارکت
+Contribution Steps
 
-1. Fork کردن مخزن
-2. ایجاد branch جدید (git checkout -b feature/amazing-feature)
-3. Commit تغییرات (git commit -m 'Add amazing feature')
-4. Push به branch (git push origin feature/amazing-feature)
-5. ایجاد Pull Request
+1. Fork the repository
+2. Create a new branch (git checkout -b feature/amazing-feature)
+3. Commit your changes (git commit -m 'Add amazing feature')
+4. Push to the branch (git push origin feature/amazing-feature)
+5. Open a Pull Request
 
-اصول مشارکت
+Contribution Guidelines
 
-· رعایت استانداردهای PEP 8
-· اضافه کردن تست برای ویژگی‌های جدید
-· به‌روزرسانی مستندات
-· گزارش باگ‌ها در Issues
+· Follow PEP 8 coding standards
+· Add tests for new features
+· Update documentation accordingly
+· Report bugs via Issues
 
-⚠️ نکات امنیتی
+⚠️ Security Notes
 
-موارد مهم
+Important Considerations
 
-· این برنامه صرفاً برای آموزش و تحقیق طراحی شده است
-· از این ابزار برای اهداف غیرقانونی استفاده نکنید
-· کلیدهای خصوصی تولید شده را در محیط امن نگه‌داری کنید
-· هیچ‌گاه کلیدهای واقعی خود را در این برنامه وارد نکنید
+· This tool is designed exclusively for educational and research purposes
+· Do not use this tool for illegal activities
+· Store generated private keys in a secure environment
+· Never input your real wallet keys into this program
 
-محدودیت‌ها
+Limitations
 
-· پشتیبانی از MWEB لایت‌کوین مفهومی است و نیاز به پیاده‌سازی کامل MimbleWimble دارد
+· Litecoin MWEB support is conceptual and requires complete MimbleWimble implementation
+· Production use with real addresses requires significant hardware resources
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
