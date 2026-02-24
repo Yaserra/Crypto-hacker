@@ -267,3 +267,7 @@ Limitations
 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
+You can connect with me via my Telegram ID.
+
+For custom projects in all areas of programming, feel free to reach out to me on Telegram.
+iD : @Vostass1
